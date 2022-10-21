@@ -1,0 +1,62 @@
+
+.hu{
+    background-color: aquamarine;
+}
+.first {
+    border: 2px solid rebeccapurple ;
+    background-color: white;
+    width: 50%;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+.second {
+    border: 2px dashed rgb(177, 66, 66);
+    background-color: white;
+    width: 50% ;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+.walaa {
+    border: 2px dotted rgb(72, 48, 5);
+}
+.thard {
+    border: 2px solid black;
+    background-color: white;
+    width: 50% ;
+    margin-bottom: 8px;
+    padding: 5px;
+    color: blueviolet;
+}
+.mo{
+    background-color: sienna;
+}
+
+.sh{
+    text-decoration: underline;
+} 
+.e{
+    color: blue;
+}
+.b{
+    color: blueviolet;
+}
+.q{
+    color: red;
+    background-color: black;
+    
+}
+.o{
+    color: red;
+}
+.r{
+    list-style-type:circle;
+    color: blue;
+    
+}
+.z{
+    list-style-type:none;
+    color: blue;
+}
+.p{
+    list-style-type: disc;
+}
