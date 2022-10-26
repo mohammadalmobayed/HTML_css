@@ -7,14 +7,34 @@
     <title>Document</title>
 </head>
 <style>
-    .container{
-        display: grid; 
-        border: 2px solid white;
-         
-          
+    body{
+        background-color: lightblue;
     }
-
-</style>
+    .container{
+        display:grid;
+        grid-template-columns:auto auto auto; 
+        border: 2px solid white;
+        gap: 5px;
+    }
+    img{
+        width: 100%;
+        height: 400px;
+    }
+    .A{
+        padding: 10px;
+        background-color: black;
+    }
+    @media(max-width:800px){
+        .container{
+            grid-template-columns:auto auto; 
+        }
+    }
+    @media(max-width:560px){
+        .container{
+            grid-template-columns:auto; 
+        }
+    }
+ </style>
 <body>
     <h1>Media Query Demo</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit ea ipsa odio doloribus! Nulla nihil ut recusandae dignissimos iusto, in totam culpa itaque minima dolore laborum, nostrum, veniam odio enim vero! Nobis, rem, expedita odit quaerat assumenda maiores laboriosam molestias dignissimos eveniet cum eligendi animi sunt iure laborum quas.</p>
@@ -23,14 +43,14 @@
 
     <h2>Box Columns</h2>
     <div class="container">
-   <div class="A"><img src="image25_10/1.jpg" alt="off"></div>
+   <div class="A"><img src="image26_10/1.jpg" alt="off"></div>
 
-    <div class="B"><img src="image25_10/2.jpg" alt="2"></div>
+    <div class="A"><img src="image26_10/2.jpg" alt="2"></div>
 
-    <div class="C"><img src="image25_10/3.jpg" alt="3"></div>
+    <div class="A"><img src="image26_10/3.jpg" alt="3"></div>
 
-    <div class="D"><img src="image25_10/4.jpg" alt="4"></div>
-    <div class="E"><img src="image25_10/5.jpg" alt="5"></div>
+    <div class="A"><img src="image26_10/4.jpg" alt="4"></div>
+    <div class="A"><img src="image26_10/5.jpg" alt="5"></div>
     </div>
 </div>
 </body>

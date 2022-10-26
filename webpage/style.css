@@ -16,20 +16,10 @@
 }
 .leftside{
     display:flex;
- 
-   
-
+    align-items: center;
 }
 .fa-solid.fa-utensils{
-    color: rgb(31, 219, 156);
-    background-color: black;
-    font-size: 25px;
-    border-radius: 30px;
-    margin-right: 5px;
-    padding: 4px;
-    position: absolute;
-    margin-top: 25px;
-    
+    font-size: 40px;
 
 }
 .icon{
@@ -48,6 +38,9 @@ h2{
 }
 dl{
     margin-left: 30px;
+}
+dd{
+    opacity: .5;
 }
 .container3{
     display: grid;
@@ -74,15 +67,22 @@ button{
     height: 30px;
     margin-top: 10px;
     background-color: bisque;
+    
 }
 .text{
-margin-top: 50px;
+/* margin-top: 50px; */
 text-align: center;
 }
 .text > *{
-    margin: 20px;
+    margin: 5px;
+    margin-top: 25px;
 }
 .title{
     margin-left: 4px;
 
+}
+.container4{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
 }
