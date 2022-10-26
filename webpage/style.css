@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+   
+}
+.A{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.leftside{
+    display:flex;
+ 
+   
+
+}
+.fa-solid.fa-utensils{
+    color: rgb(31, 219, 156);
+    background-color: black;
+    font-size: 25px;
+    border-radius: 30px;
+    margin-right: 5px;
+    padding: 4px;
+    position: absolute;
+    margin-top: 25px;
+    
+
+}
+.icon{
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.cho{
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+
+}
+h2{
+    margin: 30px;
+}
+dl{
+    margin-left: 30px;
+}
+.container3{
+    display: grid;
+    margin: 5px 0px;
+    grid-template-columns:auto 1fr;
+    padding-inline: 5px;
+    background-image: url('./14.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: auto;
+
+}
+.container3 div{
+    margin-right: 5px;
+}
+.no{
+    width: 60px;
+    border-radius: 50%;
+}
+button{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: bisque;
+}
+.text{
+margin-top: 50px;
+text-align: center;
+}
+.text > *{
+    margin: 20px;
+}
+.title{
+    margin-left: 4px;
+
+}
